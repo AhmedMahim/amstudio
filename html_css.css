@@ -1,0 +1,258 @@
+
+*
+{
+   width: auto;
+}
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color:  #99A4D2 ;
+}
+
+
+header
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #D9B9EA;
+
+}
+
+header .logoHeader
+{
+	float: left;
+	margin:10px;
+	margin-left: 40px;
+	margin-top: 0;
+	padding-top: 0;
+	width: 45px;
+	height: 45px;
+    
+}
+
+
+header button
+{
+	margin: 10px;
+	padding: 8px;
+	padding-top:5px; 
+	padding-bottom:5px;
+	border :none;
+	border-radius: 5px;
+	background-color:rgba(140 , 189 , 237 , 0.8);
+	color:black;
+	box-shadow: 5px 3px 3px black;
+	
+}
+
+
+.div_1
+{
+	text-align: center;
+}
+
+.welcomeDG
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin: 10px auto;
+
+
+}
+
+.titleHome
+{
+	border:black solid;
+	border-radius: 10px;
+	background-color: #EC8A41 ;
+	text-align: center;   
+}
+
+
+
+header button div
+{
+	width: 20px;
+	height: 2px;
+	background-color: black;
+	margin:4px 0;
+
+}
+
+
+.nav
+{
+	margin: 0;
+	visibility:hidden;
+	padding: 0;
+}
+
+.menu
+{
+	background-color: transparent;
+	box-shadow: none;
+	height: 0;
+	padding: 0;
+	margin: 8px;
+}
+
+header
+{
+	max-height: 45px;
+}
+
+
+.TITLE
+{
+	font-size: 40px;
+	border-bottom-style: double;
+	border-top-style: double;
+	color: #E90404   ;
+	background-color: #000000;
+
+}
+
+
+
+
+
+.T1 , .T2 ,.T3 ,.T4,.T5,.T6
+{
+	color: #FF0000 ;
+}
+
+
+
+.TUTO1
+{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 30px;
+
+}
+
+.TUTO2
+{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 30px;
+
+}
+
+.titleimg
+{
+	width: 600px;
+	height: 400px
+}
+
+
+.TUTO3
+{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+.TUTO3IMG
+{
+	width: 600px;
+	height: 400px
+}
+
+
+.TUTO4
+{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+.TUTO4IMG
+{
+	width: 600px;
+	height: 400px
+}
+
+
+.TUTO5
+{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+.TUTO5IMG
+{
+		width: 600px;
+	height: 400px
+}
+
+.TUTO6
+{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+.TUTO6IMG
+{
+			width: 600px;
+	height: 400px
+}
+
+
+@media screen and (max-width: 1024PX)
+{
+
+
+*{
+	width: auto;
+}
+
+.titleimg
+{
+	width: 300px;
+	height: 200px
+}
+
+
+
+.buttonsansmenu
+{
+visibility: hidden;
+}
+
+.nav
+{
+	
+	visibility:visible;
+	text-align: left;	
+}
+
+.div_1
+{
+	text-align:center;
+}
+
+
+.titleHome
+{
+	border:black solid;
+	border-radius: 10px;
+	background-color: #EC8A41 ;
+	text-align: center;   
+}
+
+
+body div img
+{
+	width: 60%;
+	max-width: 784px;
+	min-width: 384px;
+}
+
+}
