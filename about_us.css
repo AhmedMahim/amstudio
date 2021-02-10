@@ -1,0 +1,191 @@
+
+*
+{
+   width: auto;
+}
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color:  #01107D  ;
+}
+
+
+header
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #D9B9EA;
+
+}
+
+header .logoHeader
+{
+	float: left;
+	margin:10px;
+	margin-left: 40px;
+	margin-top: 0;
+	padding-top: 0;
+	width: 45px;
+	height: 45px;
+    
+}
+
+
+header button
+{
+	margin: 10px;
+	padding: 8px;
+	padding-top:5px; 
+	padding-bottom:5px;
+	border :none;
+	border-radius: 5px;
+	background-color:rgba(140 , 189 , 237 , 0.8);
+	color:black;
+	box-shadow: 5px 3px 3px black;
+	
+}
+
+
+.div_1
+{
+	text-align: center;
+}
+
+.welcomeDG
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin: 10px auto;
+
+
+}
+
+.titleHome
+{
+	border:black solid;
+	border-radius: 10px;
+	background-color: #EC8A41 ;
+	text-align: center;   
+}
+
+
+
+header button div
+{
+	width: 20px;
+	height: 2px;
+	background-color: black;
+	margin:4px 0;
+
+}
+
+
+.nav
+{
+	margin: 0;
+	visibility:hidden;
+	padding: 0;
+}
+
+.menu
+{
+	background-color: transparent;
+	box-shadow: none;
+	height: 0;
+	padding: 0;
+	margin: 8px;
+}
+
+header
+{
+	max-height: 45px;
+}
+
+div p
+{
+	text-align: left;
+	margin-left: 60px;
+	font-size: 20px;
+	color:#EF0096;
+	font-family: 'Raleway', sans-serif;
+
+
+}
+
+.imageInsta
+{
+	
+	max-height: 50px;
+	max-width: 50px;
+	margin: 10px;
+
+	
+}
+
+
+.imageTik
+{
+	
+	max-height: 50px;
+	max-width: 50px;
+	margin: 10px;
+
+}
+
+
+ div .socialMedia
+{
+	text-align: center;
+		margin: 20px;
+}
+
+@media screen and (max-width: 1024PX)
+{
+
+*{
+	width: auto;
+}
+
+.buttonsansmenu
+{
+visibility: hidden;
+}
+
+.nav
+{
+	
+	visibility:visible;
+	text-align: left;	
+}
+
+.div_1
+{
+	text-align:center;
+}
+
+
+.titleHome
+{
+	border:black solid;
+	border-radius: 10px;
+	background-color: #EC8A41 ;
+	text-align: center;   
+}
+
+
+body div img
+{
+	width: 60%;
+	max-width: 784px;
+	min-width: 384px;
+}
+
+.imageInsta,.imageTik
+{
+	width:auto;
+}
+}
