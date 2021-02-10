@@ -9,7 +9,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background-color:  #99A4D2 ;
+	background-color:  #01107D ;
 }
 
 
@@ -63,6 +63,15 @@ header button
 
 
 }
+
+
+body div img
+{
+	width: 60%;
+	max-width: 784px;
+	min-width: 384px;
+}
+
 
 .titleHome
 {
