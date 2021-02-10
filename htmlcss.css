@@ -1,4 +1,8 @@
 
+
+/* .......................................................................................V COMPUTER...................................................................................*/
+
+
 *
 {
    width: auto;
@@ -9,8 +13,9 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background-color:  #99A4D2 ;
+	background-color:  #01107D  ;
 }
+
 
 
 header
@@ -19,8 +24,11 @@ header
 	padding: 0;
 	margin: 0;
 	background-color: #D9B9EA;
+	max-height: 45px;
 
 }
+
+
 
 header .logoHeader
 {
@@ -33,6 +41,7 @@ header .logoHeader
 	height: 45px;
     
 }
+
 
 
 header button
@@ -50,29 +59,6 @@ header button
 }
 
 
-.div_1
-{
-	text-align: center;
-}
-
-.welcomeDG
-{
-	margin-left: 10px;
-	margin-right: 10px;
-	margin: 10px auto;
-
-
-}
-
-.titleHome
-{
-	border:black solid;
-	border-radius: 10px;
-	background-color: #EC8A41 ;
-	text-align: center;   
-}
-
-
 
 header button div
 {
@@ -84,14 +70,45 @@ header button div
 }
 
 
-.nav
+
+.div_1
+{
+	text-align: center;
+}
+
+
+
+.welcomeDG
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin: 10px auto;
+
+
+}
+
+
+
+.titleHome
+{
+	border:black solid;
+	border-radius: 10px;
+	background-color: #EC8A41 ;
+	text-align: center;   
+}
+
+
+
+.menuButtonRedirection
 {
 	margin: 0;
 	visibility:hidden;
 	padding: 0;
 }
 
-.menu
+
+
+.menuButton
 {
 	background-color: transparent;
 	box-shadow: none;
@@ -100,13 +117,9 @@ header button div
 	margin: 8px;
 }
 
-header
-{
-	max-height: 45px;
-}
 
 
-.TITLE
+.titleIntroduction
 {
 	font-size: 40px;
 	border-bottom-style: double;
@@ -118,8 +131,6 @@ header
 
 
 
-
-
 .T1 , .T2 ,.T3 ,.T4,.T5,.T6
 {
 	color: #FF0000 ;
@@ -127,7 +138,7 @@ header
 
 
 
-.TUTO1
+.TUTO1 ,.TUTO2 ,.TUTO3 ,.TUTO4 ,.TUTO5 ,.TUTO6
 {
 	font-size: 20px;
 	text-align: left;
@@ -135,85 +146,50 @@ header
 
 }
 
-.TUTO2
-{
-	font-size: 20px;
-	text-align: left;
-	margin-left: 30px;
 
-}
 
-.titleimg
+.TUTO1IMG ,.TUTO2IMG ,.TUTO3IMG ,.TUTO4IMG ,.TUTO5IMG ,.TUTO6IMG
 {
 	width: 600px;
 	height: 400px
 }
 
 
-.TUTO3
-{
-	font-size: 20px;
-	text-align: left;
-	margin-left: 30px;
-}
 
-.TUTO3IMG
-{
-	width: 600px;
-	height: 400px
-}
-
-
-.TUTO4
-{
-	font-size: 20px;
-	text-align: left;
-	margin-left: 30px;
-}
-
-.TUTO4IMG
-{
-	width: 600px;
-	height: 400px
-}
-
-
-.TUTO5
-{
-	font-size: 20px;
-	text-align: left;
-	margin-left: 30px;
-}
-
-.TUTO5IMG
-{
-		width: 600px;
-	height: 400px
-}
-
-.TUTO6
-{
-	font-size: 20px;
-	text-align: left;
-	margin-left: 30px;
-}
-
-.TUTO6IMG
-{
-			width: 600px;
-	height: 400px
-}
+/*.......................................................................................Media Querries................................................................................*/
 
 
 @media screen and (max-width: 1024PX)
 {
 
 
-*{
+
+*
+{
 	width: auto;
 }
 
-.titleimg
+
+
+body div img
+{
+	width: 60%;
+	max-width: 784px;
+	min-width: 384px;
+}
+
+
+
+body div img
+{
+	width: 60%;
+	max-width: 784px;
+	min-width: 384px;
+}
+
+
+
+.TUTO1IMG ,.TUTO2IMG ,.TUTO3IMG ,.TUTO4IMG ,.TUTO5IMG ,.TUTO6IMG
 {
 	width: 300px;
 	height: 200px
@@ -226,12 +202,16 @@ header
 visibility: hidden;
 }
 
-.nav
+
+
+.menuButtonRedirection
 {
 	
 	visibility:visible;
 	text-align: left;	
 }
+
+
 
 .div_1
 {
@@ -248,11 +228,5 @@ visibility: hidden;
 }
 
 
-body div img
-{
-	width: 60%;
-	max-width: 784px;
-	min-width: 384px;
-}
 
 }
